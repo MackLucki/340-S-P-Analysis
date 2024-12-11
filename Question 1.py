@@ -51,11 +51,6 @@ Pres_elec_str = []
 for x in Pres_elecs:
     Pres_elec_str.append(str(x))
 
-## turn the closing values into differences, so we can see the variance
-## closing_diff = []
-## for value in range(len(closing_value) - 1):
-##   difference = closing_value[value] - closing_value[value - 1]
-##   closing_diff.append(difference)  # a vector with the change from the day before it
 
 #make the years strings
 years_str = []
@@ -168,7 +163,6 @@ after_variance.append(0)
 ## it will show that during presidential elections the stock market preforms better
 
 ## we will plot the differences as well
-
 
 ##creating the vector that will show the year prior and after
 
